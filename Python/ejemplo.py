@@ -60,6 +60,13 @@ alumno = lista.pop() #pop enseña y borra el ultimo de la lista
 del lista[1] #borra la posicion de la lista que le pones
 
 lista.insert(1, 'Diego')
+lista.append('Javi')
+lista.append('Javi')
+lista.append('Javi')
+print(lista)
+del lista[:2] #borra desde la posicion 0 a la 2
 
 print(alumno)
 print(lista)
+
+lista.sort() #sort ordena
