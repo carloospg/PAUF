@@ -32,3 +32,34 @@ if a > b:
 else:
     print("adios")
 
+#bucle for
+
+ciclos = ["DAM1", "ASIR1", "DAW1"]
+for ciclo in ciclos:
+    print(ciclo)
+
+for i in range(5):
+    print(i)
+
+#bucle while
+
+x = 20
+
+while x > 20:
+    print("hola")
+
+#listas
+
+lista = ['Marta' 'Victor', 'Cristina', 'Noelia']
+
+lista.append('Javi')
+lista.remove('Javi')
+
+alumno = lista.pop() #pop enseña y borra el ultimo de la lista
+
+del lista[1] #borra la posicion de la lista que le pones
+
+lista.insert(1, 'Diego')
+
+print(alumno)
+print(lista)
