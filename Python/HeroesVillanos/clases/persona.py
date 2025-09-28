@@ -12,7 +12,7 @@ class Persona:
 
 
     def __str__(self):
-        print("Nombre: " + self.nombre + " Apellido 1: " + self.ap1 + " Apellido 2: " + self.ap2 + " Fecha nacimiento: " + self.fechaNac + " Id: " + self.id + " Puntuacion Total: " + self.puntuacionTotal)
+        return f"Nombre: {self.nombre}, ap1: {self.ap1}, ap2: {self.ap2}, fecha de nacimiento: {self.fechaNac}, id: {self.id}, puntuacion total: {self.puntuacionTotal}"
 
     def anios(self):
         dia, mes, anio = map(int, self.fechaNac.split("/")) # ma
