@@ -1,0 +1,5 @@
+2025-09-28 20:35:56,157 - INFO - Heroe creado: Nombre: carlos, ap1: el, ap2: bueno, fecha de nacimiento: 01/06/2005, id: 1, puntuacion total: 52.0, cualidades: {'Código Limpio': 88, 'Bien Documentado': 53, 'GITGod': 0, 'Arquitecto': 33, 'Detallista': 86}
+2025-09-28 20:36:18,614 - INFO - Villano creado: Nombre: david, ap1: evil, ap2: scorpion, fecha de nacimiento: 01/01/2000, id: 2, puntuacion total: 35.75, cualidades: {'Chatgepeteador': 78, 'Entregador Tardio': 33, 'Ausencias': 22, 'Hablador': 10}
+2025-09-28 20:36:33,405 - INFO - Búsqueda por nombre=carlos \u2192 1 resultados
+2025-09-28 20:36:42,050 - INFO - Búsqueda por nombre=david \u2192 1 resultados
+2025-09-28 20:36:50,195 - INFO - Búsqueda por nombre=juan \u2192 0 resultados
