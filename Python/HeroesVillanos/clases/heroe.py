@@ -2,7 +2,7 @@ from persona import Persona
 import random
 
 class Heroe(Persona):
-    atributos = ["Chatgepeteador", "Entregador Tardio", "Ausencias", "Hablador"]
+    atributos = ["Código Limpio", "Bien Documentado", "GITGod", "Arquitecto", "Detallista"]
 
     def __init__(self, nombre, ap1, ap2, fechaNac, id):
         super().__init__(nombre, ap1, ap2, fechaNac, id)
