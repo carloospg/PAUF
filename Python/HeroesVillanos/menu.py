@@ -35,7 +35,7 @@ def gestionAulaDeHeroesYVillanos(opcion):
             log.info(f"Villano creado: {v}")
             print(v)
         case 3:
-            atributo = input("Buscar por atributo: ")
+            atributo = input("Buscar por atributo: (nombre, ap1, ap2, fecha, id)")
             valor = input("Valor: ")
             encontrados = []
             for p in personajes:
