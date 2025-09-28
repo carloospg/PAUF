@@ -1,12 +1,6 @@
 class Persona:
-    nombre = ""
-    ap1 = ""
-    ap2 = ""
-    fechaNac = ""
-    id = 0
-    puntuacionTotal = 0
 
-    def __init__(self, nombre, ap1, ap2, fechaNac, id, puntuacionTotal):
+    def __init__(self, nombre, ap1, ap2, fechaNac, id, puntuacionTotal=0):
         self.nombre = nombre
         self.ap1 = ap1
         self.ap2 = ap2
