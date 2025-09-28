@@ -1,4 +1,4 @@
-from persona import Persona
+from clases.persona import Persona
 import random
 
 class Heroe(Persona):
@@ -10,4 +10,4 @@ class Heroe(Persona):
         self.puntuacionTotal = sum(self.cualidades.values()) / len(self.cualidades)
 
     def __str__(self):
-        return super().__str__() + f" Cualidades: " + self.cualidades
+        return f"Nombre: {self.nombre}, ap1: {self.ap1}, ap2: {self.ap2}, fecha de nacimiento: {self.fechaNac}, id: {self.id}, puntuacion total: {self.puntuacionTotal}, cualidades: {self.cualidades}"
